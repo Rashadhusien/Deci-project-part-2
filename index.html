@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Health Reminder</title>
+  </head>
+  <body>
+    <div class="toast">
+      <div class="toast-content">
+        <div class="block">
+          <div class="screenAlert-icon screenAlert-info scaleInfo">
+            <span class="screenAlert-dot pulseInfoIns"></span>
+            <span class="screenAlert-body pulseInfoIns"></span>
+          </div>
+        </div>
+        <div class="message">
+          <span class="text text-1">Health Reminder</span>
+          <span class="text text-2">This is your reminder</span>
+        </div>
+      </div>
+      <span class="close"></span>
+
+      <a href="more.html" target="_blank" class="more">Read More</a>
+
+      <div class="progress"></div>
+    </div>
+
+    <div class="custimize">
+      <h2>Customize</h2>
+      <div class="box mb-40">
+        <span
+          class="color red"
+          data-color="#e91e63"
+          data-pulse="#71082c"
+        ></span>
+        <span
+          class="color green"
+          data-color="#009688"
+          data-pulse="#05514a"
+        ></span>
+        <span
+          class="color blue"
+          data-color="#03a9f4"
+          data-pulse="#9de0f6"
+        ></span>
+        <span
+          class="color yellow"
+          data-color="#FF9800"
+          data-pulse="#633f0b"
+        ></span>
+      </div>
+      <div class="box mode">
+        <button class="dark">Dark Mode</button>
+        <button class="light">Light Mode</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
